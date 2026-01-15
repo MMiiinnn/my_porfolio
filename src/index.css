@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  /* Professional Dark Theme Palette */
+  --color-primary: #3b82f6; /* Bright Blue */
+  --color-secondary: #10b981; /* Emerald */
+  --color-bg-dark: #0f172a; /* Deep Navy */
+  --color-card-dark: #1e293b; /* Slate */
+
+  --font-display: "Inter", sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-bg-dark text-slate-200 font-display;
+  }
+}
