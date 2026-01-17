@@ -51,7 +51,7 @@ export default function About() {
             <div className="w-74 h-74 border-2 border-primary rounded translate-x-4 translate-y-4 group-hover:translate-x-2 group-hover:translate-y-2 transition-transform duration-300"></div>
             <div className="absolute inset-0 w-74 h-74 bg-primary/20 rounded group-hover:bg-transparent transition-colors duration-300"></div>
             <img
-              src="/public/images/MyPicture.jpg"
+              src="/images/MyPicture.jpg"
               alt="Profile"
               className="absolute inset-0 w-74 h-74 object-cover rounded transition-all duration-300"
             />
