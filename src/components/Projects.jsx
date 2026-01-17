@@ -5,7 +5,7 @@ export default function ProjectsGrid() {
     {
       title: "Shoe Store Admin Dashboard",
       description:
-        "A web-based admin dashboard for managing products, users, and orders in an e-commerce system.",
+        "Building a scalable design system for complex e-commerce data visualization using Tailwind CSS v4.",
       tags: ["React", "Javascript", "TailwindCSS", "Git"],
       github: "https://github.com/MMiiinnn/admin_web",
       live: "#",
@@ -19,8 +19,7 @@ export default function ProjectsGrid() {
       tags: ["JavaScript", "TailwindCSS", "MySQL", "Git"],
       github: "http://gitlab.com/siuuuuu/backend",
       live: "#",
-      image:
-        "https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&q=80&w=500",
+      image: "images/siuustore.jpg",
     },
     {
       title: "Mini Food Order App",
