@@ -30,6 +30,15 @@ export default function ProjectsGrid() {
       live: "food-order-five-liart.vercel.app",
       image: "images/foodorder.jpg",
     },
+    {
+      title: "Redux Global Cart System",
+      description:
+        "A sophisticated e-commerce solution focusing on global state management. It features real-time cart synchronization, persistent storage logic, and a seamless checkout flow.",
+      tags: ["React", "Redux Toolkit", "TailwindCSS"],
+      github: "https://github.com/MMiiinnn/Redux_cart",
+      live: "redux-cart-cyan-three.vercel.app", // Hãy thêm https:// để link hoạt động
+      image: "images/reduxcart.jpg", // Sử dụng ảnh Conceptual UI nếu chưa có screenshot đẹp
+    },
   ];
 
   return (
