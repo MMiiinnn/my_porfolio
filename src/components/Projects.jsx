@@ -27,7 +27,7 @@ export default function ProjectsGrid() {
         "A front end web application that allow users browse the product, manage a shopping cart, and place orders through a user-friendly interface",
       tags: ["JavaScript", "CSS3", "Git"],
       github: "https://github.com/MMiiinnn/Food_order.git",
-      live: "food-order-five-liart.vercel.app",
+      live: "foodorder-contextapi.vercel.app",
       image: "images/foodorder.jpg",
     },
     {
@@ -36,8 +36,8 @@ export default function ProjectsGrid() {
         "A sophisticated e-commerce solution focusing on global state management. It features real-time cart synchronization, persistent storage logic, and a seamless checkout flow.",
       tags: ["React", "Redux Toolkit", "TailwindCSS"],
       github: "https://github.com/MMiiinnn/Redux_cart",
-      live: "redux-cart-cyan-three.vercel.app", // Hãy thêm https:// để link hoạt động
-      image: "images/reduxcart.jpg", // Sử dụng ảnh Conceptual UI nếu chưa có screenshot đẹp
+      live: "redux-cart-cyan-three.vercel.app",
+      image: "images/reduxcart.jpg",
     },
   ];
 
