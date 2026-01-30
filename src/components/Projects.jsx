@@ -3,6 +3,15 @@ import ProjectCard from "./ProjectCard";
 export default function ProjectsGrid() {
   const projects = [
     {
+      title: "Fillfilm - Movie Streaming Platform",
+      description:
+        "A high-performance movie discovery platform powered by the TMDB API. It features dynamic content rendering with custom-built vertical and horizontal sliders, advanced category filtering, and a responsive UI designed for cinematic immersion. Key technical challenges included secure API key management on Vercel and optimizing asynchronous data fetching for complex layouts.",
+      tags: ["React.js", "TMDB API", "TailwindCSS", "Swiper.js", "Vercel"],
+      github: "https://github.com/MMiiinnn/MovieApp",
+      live: "https://movie-app-phi-vert.vercel.app/",
+      image: "images/fillfilm.jpg",
+    },
+    {
       title: "Shoe Store Admin Dashboard",
       description:
         "Building a scalable design system for complex e-commerce data visualization using Tailwind CSS v4.",
@@ -38,15 +47,6 @@ export default function ProjectsGrid() {
       github: "https://github.com/MMiiinnn/Redux_cart",
       live: "redux-cart-cyan-three.vercel.app",
       image: "images/reduxcart.jpg",
-    },
-    {
-      title: "Fillfilm - Movie Streaming Platform",
-      description:
-        "A high-performance movie discovery platform powered by the TMDB API. It features dynamic content rendering with custom-built vertical and horizontal sliders, advanced category filtering, and a responsive UI designed for cinematic immersion. Key technical challenges included secure API key management on Vercel and optimizing asynchronous data fetching for complex layouts.",
-      tags: ["React.js", "TMDB API", "TailwindCSS", "Swiper.js", "Vercel"],
-      github: "https://github.com/MMiiinnn/MovieApp",
-      live: "https://movie-app-phi-vert.vercel.app/",
-      image: "images/fillfilm.jpg",
     },
   ];
 
