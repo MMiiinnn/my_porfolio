@@ -5,7 +5,7 @@ export default function ProjectsGrid() {
     {
       title: "Fillfilm - Movie Streaming Platform",
       description:
-        "A high-performance movie discovery platform powered by the TMDB API. It features dynamic content rendering with custom-built vertical and horizontal sliders, advanced category filtering, and a responsive UI designed for cinematic immersion. Key technical challenges included secure API key management on Vercel and optimizing asynchronous data fetching for complex layouts.",
+        "A cinematic movie platform integrated with the TMDB API. It features custom-built vertical and horizontal sliders, complex asynchronous data fetching, and secure environment management on Vercel. Optimized for high performance and seamless responsiveness across all devices.",
       tags: ["React.js", "TMDB API", "TailwindCSS", "Swiper.js", "Vercel"],
       github: "https://github.com/MMiiinnn/MovieApp",
       live: "https://movie-app-phi-vert.vercel.app/",
