@@ -5,10 +5,16 @@ export default function ProjectsGrid() {
     {
       title: "Fillfilm - Movie Streaming Platform",
       description:
-        "A cinematic movie platform integrated with the TMDB API. It features custom-built vertical and horizontal sliders, complex asynchronous data fetching, and secure environment management on Vercel. Optimized for high performance and seamless responsiveness across all devices.",
-      tags: ["React.js", "TMDB API", "TailwindCSS", "Swiper.js", "Vercel"],
-      github: "https://github.com/MMiiinnn/MovieApp",
-      live: "https://movie-app-phi-vert.vercel.app/",
+        "A high-performance Netflix-inspired platform featuring an AI 'Mood Picker' engine integrated via Google Gemini. It leverages Zustand for persistent state management, Atomic Design for 90%+ component reusability, and Framer Motion for a premium, cinematic user experience.",
+      tags: [
+        "React 19",
+        "Google Gemini AI",
+        "Zustand",
+        "Tailwind CSS",
+        "TMDB API",
+      ],
+      github: "https://github.com/MMiiinnn/FillFilm",
+      live: "https://fillfilm.vercel.app/",
       image: "images/fillfilm.jpg",
     },
     {
